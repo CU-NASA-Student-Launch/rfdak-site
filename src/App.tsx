@@ -13,8 +13,8 @@ function App() {
   const handleDownload = () => {
     // Replace this URL with your actual .exe hosted on GitHub Releases or similar
     const link = document.createElement("a");
-    link.href = "https://your-host.com/RFDAK.exe";
-    link.download = "RFDAK-Setup.exe";
+    link.href = "https://github.com/CU-NASA-Student-Launch/RFDAK_releases/archive/refs/tags/v1.0.0.zip";
+    link.download = "v1.0.0.zip";
     link.click();
   };
 
