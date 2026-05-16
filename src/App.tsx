@@ -13,8 +13,8 @@ function App() {
   const handleDownload = () => {
     // Replace this URL with your actual .exe hosted on GitHub Releases or similar
     const link = document.createElement("a");
-    link.href = "https://github.com/CU-NASA-Student-Launch/RFDAK_releases/archive/refs/tags/v1.0.0.zip";
-    link.download = "v1.0.0.zip";
+    link.href = "https://github.com/CU-NASA-Student-Launch/RFDAK_releases/archive/refs/tags/v1.0.1.zip";
+    link.download = "v1.0.1.zip";
     link.click();
   };
 
@@ -69,7 +69,7 @@ function App() {
             <img src="/project-dominion-logo.jpg" alt="Project Dominion" className="download__project-dominion-logo" />
             <div>
               <h2 className="download__title">RFDAK</h2>
-              <p className="download__version">Latest Release &mdash; v1.0.0</p>
+              <p className="download__version">Latest Release &mdash; v1.0.1</p>
             </div>
           </div>
 
